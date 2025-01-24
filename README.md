@@ -16,7 +16,7 @@ This repository contains the dataset zip file tracked with [Git LFS](https://git
 ## Visualization
 To visualize a point cloud from the dataset one way is by running the visualizer Jupyter notebook. Here's how you can do that:
 
-1. First, ensure you have Python installed on your system, with a version between 3.8 and 3.11. You can check your Python version by running:
+1. First, ensure you have Python installed on your system, with a version between 3.9 and 3.11. You can check your Python version by running:
    ```
    python --version
    ```
@@ -26,7 +26,7 @@ To visualize a point cloud from the dataset one way is by running the visualizer
    ```   
 2. Then, you can use pip to install the requirements:
    ```
-   pip install open3d notebook
+   pip install open3d notebook jupyter
    ```
 3. Extract the `portal_crane_dataset.zip` file in the same directory. (If you are using Linux, extract `point_clouds` folder in the root directory of the project.)
 
@@ -38,7 +38,7 @@ To visualize a point cloud from the dataset one way is by running the visualizer
    ```
 6. In the Jupyter interface that opens in your web browser, locate and click on the "[visualizer.ipynb](./visualizer.ipynb)" file to open it.
 
-7. You can now run the cell in the notebook to see how a point cloud from the dataset looks like. 
+7. You can now run the code cell in the notebook to see how a point cloud from the dataset looks like. 
 
 
 
